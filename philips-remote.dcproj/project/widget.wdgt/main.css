@@ -73,55 +73,37 @@ body {
     margin-right: auto;
 }
 
-#grid {
+#gridNumerics {
     overflow: hidden;
     display: none;
     padding: 0px;
-    width: 252px;
+    width: 228px;
     cursor: default;
     -khtml-user-select: none;
-    border: 1px solid rgb(224, 224, 224);
+    border-width: 1px;
+    border-color: rgb(224, 224, 224);
     position: absolute;
-    top: 151px;
+    top: 169px;
     bottom: auto;
     margin-top: 0px;
-    left: 13px;
+    left: 24px;
 }
 
 .gridCellTemplate_template {
     position: relative;
     list-style-type: none;
     overflow: hidden;
-    border: 1px solid rgb(224, 224, 224);
+    border-width: 1px;
+    border-color: rgb(224, 224, 224);
     display: inline-block;
-    height: 80px;
-    width: 90px;
+    height: 48px;
+    width: 77px;
     margin-left: -1px;
     margin-top: -1px;
     margin-bottom: -4px;
-}
-
-.cellImage_template {
-    width: 48px;
-    height: 48px;
-    margin-top: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    display: block;
-}
-
-.icellImage_template {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-    top: 0px;
-    margin: auto;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
+    -khtml-margin-top-collapse: separate;
+    -khtml-margin-bottom-collapse: separate;
+    opacity: 0.45;
 }
 
 .cellLabel_template {
@@ -143,4 +125,106 @@ body {
 
 body.DC_windowInactive .gridCellTemplate_template.selected {
     background-color: rgb(212, 212, 212);
+}
+
+#imageNumerics {
+    width: 242px;
+    height: 194px;
+    position: absolute;
+    left: 18px;
+    top: 168px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#inner_image {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+#imageColors {
+    width: 242px;
+    height: 51px;
+    position: absolute;
+    left: 18px;
+    top: 108px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#inner_image1 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+#gridColors {
+    overflow: hidden;
+    display: none;
+    padding: 0px;
+    width: 228px;
+    cursor: default;
+    -khtml-user-select: none;
+    border-width: 1px;
+    border-color: rgb(224, 224, 224);
+    position: absolute;
+    top: 108px;
+    bottom: auto;
+    margin-top: 0px;
+    left: 24px;
+}
+
+.gridCellTemplate2_template {
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    border-width: 1px;
+    border-color: rgb(224, 224, 224);
+    display: inline-block;
+    height: 48px;
+    width: 58px;
+    margin-left: -1px;
+    margin-top: -1px;
+    margin-bottom: -4px;
+    -khtml-margin-top-collapse: separate;
+    -khtml-margin-bottom-collapse: separate;
+    opacity: 0.45;
+}
+
+.gridCellTemplate2_template.selected {
+    background-color: highlight;
+}
+
+body.DC_windowInactive .gridCellTemplate2_template.selected {
+    background-color: rgb(212, 212, 212);
+}
+
+.cellLabel2_template {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 17px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 11px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
 }

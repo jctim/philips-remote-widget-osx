@@ -15,12 +15,16 @@
         <img id="frontImg" src="Parts/Images/front.png" alt="" apple-locked="true" apple-part="com.apple.Dashcode.part.frontimage" apple-style="image-theme: 1; image-shape: 3; image-opacity: 1.00; image-top-color: 1.0000,1.0000,1.0000; image-bottom-color: 0.6154,0.6154,0.6154; image-radius: 12,12,12,12; image-border: 1; image-border-color: 0.5294,0.5294,0.5294; image-border-width: 1; shine-strength: 0.9; shine-alpha-level: 0.67; shine-height: 0.50; glass-arc-height: 0.06; shadow-include-shadow: 1; shadow-blur: 9.00; shadow-offset: -1.00,-6.00; shadow-color: 0.0000,0.0000,0.0000,0.3333;">
         <div class="apple-no-children" id="info" apple-part="com.apple.Dashcode.part.infobutton" apple-default-image-visibility="hidden"></div>
         <div apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" id="helloText" apple-group="text" apple-default-image-visibility="hidden" apple-style="part-height-dependent: true;"></div>
-        <ul id="grid" apple-part="com.apple.Dashcode.part.grid" class="">
-            <li id="gridCellTemplate" apple-template="true" class="gridCellTemplate_template last" style="">
-                <div id="cellImage" apple-part="com.apple.Dashcode.part.imageLayout" class="cellImage_template" apple-group="cellImage">
-                    <img id="icellImage" class="apple-hidden icellImage_template" apple-group="cellImage">
-                </div>
+        <div apple-part="com.apple.Dashcode.part.imageLayout" id="imageNumerics" apple-group="image1"><img class="apple-hidden" src="Images/phil_rc_numerics.png" id="inner_image" apple-group="image1"></div>
+        <div apple-part="com.apple.Dashcode.part.imageLayout" id="imageColors" apple-group="image"><img class="apple-hidden" src="Images/phil_rc_color.png" id="inner_image1" apple-group="image"></div>
+        <ul id="gridNumerics" apple-part="com.apple.Dashcode.part.grid" class="">
+            <li id="gridCellTemplate" apple-template="true" class="gridCellTemplate_template first" style="">
                 <div id="cellLabel" apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children cellLabel_template" apple-text-overflow="ellipsis"></div>
+            </li>
+        </ul>
+        <ul id="gridColors" apple-part="com.apple.Dashcode.part.grid" class="">
+            <li id="gridCellTemplate2" apple-template="true" class="gridCellTemplate2_template first" style="">
+                <div id="cellLabel2" apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children cellLabel2_template" apple-text-overflow="ellipsis"></div>
             </li>
         </ul>
     </div>
