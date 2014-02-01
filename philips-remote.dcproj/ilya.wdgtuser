@@ -2,8 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Breakpoints</key>
+	<dict/>
 	<key>CYLastWindowPosition</key>
-	<string>{871, 111}</string>
+	<string>{591, 125}</string>
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -14,12 +16,12 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {759, 484}}</string>
-			<string>{{0, 494}, {759, 129}}</string>
+			<string>{{0, 0}, {759, 412}}</string>
+			<string>{{0, 422}, {759, 201}}</string>
 		</array>
 	</dict>
 	<key>ContentViewType</key>
-	<integer>0</integer>
+	<integer>5</integer>
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>Destination</key>
@@ -85,16 +87,6 @@
 			<array>
 				<integer>0</integer>
 				<integer>0</integer>
-				<integer>11</integer>
-			</array>
-			<array>
-				<integer>0</integer>
-				<integer>0</integer>
-				<integer>9</integer>
-			</array>
-			<array>
-				<integer>0</integer>
-				<integer>0</integer>
 				<integer>5</integer>
 			</array>
 			<array>
@@ -120,16 +112,38 @@
 			<array>
 				<integer>0</integer>
 				<integer>0</integer>
+				<integer>12</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>9</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>11</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>13</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>3</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
 				<integer>10</integer>
 			</array>
 		</array>
 		<key>Objects view last selections</key>
 		<array>
 			<array>
-				<integer>0</integer>
-				<integer>0</integer>
-				<integer>11</integer>
-				<integer>6</integer>
+				<integer>5</integer>
 			</array>
 		</array>
 		<key>Visible StackLayout Views</key>

@@ -52,11 +52,10 @@ body {
 
 #backDevelopedWith {
     position: absolute;
-    top: 67px;
-    left: 65px;
+    top: 39px;
     width: 150px;
     height: 49px;
-    margin-left: auto;
+    left: 23px;
     margin-right: auto;
 }
 
@@ -98,7 +97,7 @@ body {
     position: absolute;
     left: 34px;
     right: auto;
-    top: 186px;
+    top: 161px;
 }
 
 #box1 {
@@ -108,7 +107,7 @@ body {
     height: 30px;
     position: absolute;
     left: 13px;
-    top: 41px;
+    top: 36px;
     margin-top: 0px;
 }
 
@@ -134,7 +133,7 @@ body {
     height: 30px;
     position: absolute;
     left: 13px;
-    top: 70px;
+    top: 60px;
     margin-top: 0px;
 }
 
@@ -192,7 +191,7 @@ body {
     height: 30px;
     position: absolute;
     left: 13px;
-    top: 99px;
+    top: 84px;
     margin-top: 0px;
 }
 
@@ -251,7 +250,7 @@ body {
     height: 30px;
     position: absolute;
     left: 13px;
-    top: 128px;
+    top: 108px;
     margin-top: 0px;
 }
 
@@ -335,7 +334,7 @@ body {
     height: 30px;
     position: absolute;
     left: 13px;
-    top: 157px;
+    top: 132px;
     margin-top: 0px;
 }
 
@@ -371,14 +370,14 @@ body {
     cursor: default;
 }
 
-#box6 {
+#box7 {
     border-color: black;
     border-width: 1px;
     width: 168px;
     height: 30px;
     position: absolute;
     left: 13px;
-    top: 311px;
+    top: 286px;
 }
 
 #bBack {
@@ -396,7 +395,7 @@ body {
     margin-top: 0px;
 }
 
-#box7 {
+#box6 {
     border-width: 1px;
     border-color: rgb(172, 172, 172);
     border-top-left-radius: 8px;
@@ -407,7 +406,7 @@ body {
     height: 118px;
     position: absolute;
     left: 38px;
-    top: 190px;
+    top: 165px;
     right: 0px;
     margin-top: 0px;
 }
@@ -490,17 +489,6 @@ body {
     margin-top: 0px;
 }
 
-#extend {
-    width: 13px;
-    height: 13px;
-    position: absolute;
-    left: 15px;
-    top: 339px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
 #bInfo {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
@@ -564,4 +552,106 @@ body {
     top: 0px;
     margin-top: 0px;
     min-height: 26px;
+}
+
+#box8 {
+    border-width: 3px !important;
+    border-color: black;
+    width: 168px;
+    height: 30px;
+    position: absolute;
+    left: 13px;
+    top: 310px;
+    margin-top: 0px;
+}
+
+#bLeft8 {
+    font-family: HelveticaNeue-Bold;
+    font-size: 12px;
+    text-align: center;
+    width: 74px;
+    height: 20px;
+    cursor: default;
+    -khtml-user-select: none;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#bRight8 {
+    font-family: HelveticaNeue-Bold;
+    font-size: 12px;
+    text-align: center;
+    width: 74px;
+    height: 20px;
+    -khtml-user-select: none;
+    position: absolute;
+    left: 84px;
+    top: 5px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    cursor: default;
+}
+
+#box9 {
+    border-width: 3px !important;
+    border-color: black;
+    width: 168px;
+    height: 30px;
+    position: absolute;
+    left: 13px;
+    top: 334px;
+    margin-top: 0px;
+}
+
+#bLeft9 {
+    font-family: HelveticaNeue-Bold;
+    font-size: 12px;
+    text-align: center;
+    width: 50px;
+    height: 20px;
+    cursor: default;
+    -khtml-user-select: none;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#bRight9 {
+    font-family: HelveticaNeue-Bold;
+    font-size: 12px;
+    text-align: center;
+    width: 50px;
+    height: 20px;
+    -khtml-user-select: none;
+    position: absolute;
+    left: 108px;
+    top: 5px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    cursor: default;
+    opacity: 1;
+}
+
+#bMid9 {
+    font-family: HelveticaNeue-Bold;
+    font-size: 12px;
+    text-align: center;
+    width: 50px;
+    cursor: default;
+    -khtml-user-select: none;
+    height: 20px;
+    position: absolute;
+    left: 59px;
+    top: 5px;
+    right: auto;
+    margin-top: 0px;
 }

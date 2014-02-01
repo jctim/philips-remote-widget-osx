@@ -113,4 +113,5 @@ if (window.widget) {
 function extendRC(event)
 {
     // ExtendRC with numeric pad
+    
 }
