@@ -5,15 +5,21 @@
  code generator otherwise the changes will be lost.
  */
 var dashcodePartSpecs = {
-    "cellLabel": { "view": "DC.Text" },
-    "cellLabel2": { "view": "DC.Text" },
+    "bLeft1": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 1 },
+    "bLeft2": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 1 },
+    "bLeft3": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 1, "text": "Guide" },
+    "bLeft4": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 1, "text": "Source" },
+    "bMid1": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 1 },
+    "bMid2": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 1 },
+    "bMid3": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 1, "text": "3D" },
+    "bMid4": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 1 },
+    "bP": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
+    "bRight1": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5 },
+    "bRight2": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5 },
+    "bRight3": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5, "text": "Ambilight" },
+    "bRight4": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5, "text": "Format" },
     "done": { "creationFunction": "CreateGlassButton", "onclick": "showFront", "text": "Done" },
-    "gridColors": { "allowsEmptySelection": true, "dataArray": ["Item 3"], "dataSourceName": "colorButtons", "labelElementId": "cellLabel2", "sampleRows": 4, "selectionEnabled": true, "useDataSource": true, "view": "DC.List" },
-    "gridNumerics": { "allowsEmptySelection": true, "dataArray": ["Item 3"], "dataSourceName": "numericButtons", "labelElementId": "cellLabel", "sampleRows": 4, "selectionEnabled": true, "useDataSource": true, "view": "DC.List" },
-    "helloText": { "text": "Hello, World!", "view": "DC.Text" },
-    "imageColors": { "view": "DC.ImageLayout" },
-    "imageNumerics": { "view": "DC.ImageLayout" },
-    "info": { "backgroundStyle": "black", "creationFunction": "CreateInfoButton", "foregroundStyle": "white", "frontID": "front", "onclick": "showBack" }
+    "info": { "backgroundStyle": "black", "creationFunction": "CreateInfoButton", "foregroundStyle": "white", "frontID": "front", "onclick": "showBack" },
+    "rectangleShape": { "creationFunction": "CreateShape", "leftImageWidth": 5, "rightImageWidth": 5 }
 };
-
 
