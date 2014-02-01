@@ -108,3 +108,9 @@ if (window.widget) {
     widget.onshow = show;
     widget.onsync = sync;
 }
+
+
+function extendRC(event)
+{
+    // ExtendRC with numeric pad
+}

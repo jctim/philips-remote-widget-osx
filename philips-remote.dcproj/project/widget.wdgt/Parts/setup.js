@@ -9,17 +9,28 @@ var dashcodePartSpecs = {
     "bLeft2": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 1 },
     "bLeft3": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 1, "text": "Guide" },
     "bLeft4": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 1, "text": "Source" },
+    "bLeft5": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 1 },
     "bMid1": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 1 },
     "bMid2": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 1 },
     "bMid3": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 1, "text": "3D" },
-    "bMid4": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 1 },
+    "bMid4": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 1, "text": "TV" },
     "bP": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
+    "bP1": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
     "bRight1": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5 },
     "bRight2": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5 },
     "bRight3": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5, "text": "Ambilight" },
     "bRight4": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5, "text": "Format" },
+    "bRight5": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5 },
+    "button": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
+    "button1": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
+    "button2": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
+    "button3": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
+    "button4": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
     "done": { "creationFunction": "CreateGlassButton", "onclick": "showFront", "text": "Done" },
+    "extend": { "backgroundStyle": "black", "creationFunction": "CreateInfoButton", "foregroundStyle": "white", "frontID": "front", "onclick": "extendRC" },
     "info": { "backgroundStyle": "black", "creationFunction": "CreateInfoButton", "foregroundStyle": "white", "frontID": "front", "onclick": "showBack" },
     "rectangleShape": { "creationFunction": "CreateShape", "leftImageWidth": 5, "rightImageWidth": 5 }
 };
+
+
 
