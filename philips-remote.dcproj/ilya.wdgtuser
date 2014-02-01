@@ -101,8 +101,7 @@
 			<array>
 				<integer>0</integer>
 				<integer>0</integer>
-				<integer>5</integer>
-				<integer>2</integer>
+				<integer>0</integer>
 			</array>
 		</array>
 		<key>Visible StackLayout Views</key>
