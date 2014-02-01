@@ -5,6 +5,7 @@
  code generator otherwise the changes will be lost.
  */
 var dashcodePartSpecs = {
+    "bBack": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
     "bDown": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
     "bExit": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
     "bInfo": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
@@ -21,8 +22,7 @@ var dashcodePartSpecs = {
     "bMid4": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 1, "text": "TV" },
     "bOk": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
     "bOptions": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
-    "bP": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
-    "bP1": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
+    "bPower": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
     "bRight": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
     "bRight1": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5 },
     "bRight2": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5 },

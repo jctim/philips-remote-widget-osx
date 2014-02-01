@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CYLastWindowPosition</key>
-	<string>{539, 126}</string>
+	<string>{871, 111}</string>
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -26,6 +26,8 @@
 		<string>localhost.default</string>
 		<key>Path</key>
 		<string>philips-remote</string>
+		<key>SavePath</key>
+		<string>/Users/ilya/Documents/Proects</string>
 		<key>enableSimulation</key>
 		<true/>
 		<key>simulatedHost</key>
@@ -95,13 +97,39 @@
 				<integer>0</integer>
 				<integer>5</integer>
 			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>4</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>6</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>7</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>8</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>10</integer>
+			</array>
 		</array>
 		<key>Objects view last selections</key>
 		<array>
 			<array>
 				<integer>0</integer>
 				<integer>0</integer>
-				<integer>0</integer>
+				<integer>11</integer>
+				<integer>6</integer>
 			</array>
 		</array>
 		<key>Visible StackLayout Views</key>
