@@ -118,17 +118,37 @@ function loadPreferences() {
   $("textIP").value = tvIP;
 }
 
+var currentAnimator = new AppleAnimator(500, 13);
+
 function togglePad(event) {
-  var dPadVisible = $("boxDPad").style.visibility == "visible";
+  currentAnimator.stop();
+  var dPad = $("boxDPad");
+  var numPad = $("boxNumPad");
+  var dPadVisible = dPad.style.visibility == "visible";
 
   if (dPadVisible) {
-    $("boxDPad").style.visibility = "hidden";
-    $("boxNumPad").style.visibility = "visible";
+    dPad.style.visibility = "hidden";
+    numPad.style.visibility = "visible";
+    var showAnimation = new AppleAnimation(0.0, 1.0, function(currentAnimator, current, start, finish) {
+      numPad.style.opacity = current;
+    });
+    var hideAnimation = new AppleAnimation(1.0, 0.0, function(currentAnimator, current, start, finish){
+      dPad.style.opacity = current;    
+    });
+    currentAnimator.addAnimation(showAnimation);
+    currentAnimator.addAnimation(hideAnimation);
   } else {
-    $("boxDPad").style.visibility = "visible";
-    $("boxNumPad").style.visibility = "hidden";
+    numPad.style.visibility = "hidden";
+    dPad.style.visibility = "visible";
+    var showAnimation = new AppleAnimation(0.0, 1.0, function(currentAnimator, current, start, finish) {
+      dPad.style.opacity = current;
+    });
+    var hideAnimation = new AppleAnimation(1.0, 0.0, function(currentAnimator, current, start, finish){
+      numPad.style.opacity = current;    
+    });
+    currentAnimator.addAnimation(showAnimation);
+    currentAnimator.addAnimation(hideAnimation);
   }
-
-  //alert(dPadVisible);
-  //alert(numPadVisible);
+  
+  currentAnimator.start();
 }
