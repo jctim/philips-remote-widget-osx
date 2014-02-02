@@ -118,10 +118,10 @@ function loadPreferences() {
   $("textIP").value = tvIP;
 }
 
-var currentAnimator = new AppleAnimator(500, 13);
+var animator = new AppleAnimator(300, 13);
 
 function togglePad(event) {
-  currentAnimator.stop();
+  animator.stop();
   var dPad = $("boxDPad");
   var numPad = $("boxNumPad");
   var dPadVisible = dPad.style.visibility == "visible";
@@ -129,26 +129,26 @@ function togglePad(event) {
   if (dPadVisible) {
     dPad.style.visibility = "hidden";
     numPad.style.visibility = "visible";
-    var showAnimation = new AppleAnimation(0.0, 1.0, function(currentAnimator, current, start, finish) {
-      numPad.style.opacity = current;
+    var showAnimation = new AppleAnimation(117.0, 3.0, function(currentAnimator, current, start, finish) {
+      numPad.style.left = current + "px";
     });
-    var hideAnimation = new AppleAnimation(1.0, 0.0, function(currentAnimator, current, start, finish){
-      dPad.style.opacity = current;    
-    });
-    currentAnimator.addAnimation(showAnimation);
-    currentAnimator.addAnimation(hideAnimation);
+    //var hideAnimation = new AppleAnimation(1.0, 0.0, function(currentAnimator, current, start, finish){
+    //  dPad.style.opacity = current;    
+    //});
+    animator.addAnimation(showAnimation);
+    //animator.addAnimation(hideAnimation);
   } else {
     numPad.style.visibility = "hidden";
     dPad.style.visibility = "visible";
-    var showAnimation = new AppleAnimation(0.0, 1.0, function(currentAnimator, current, start, finish) {
-      dPad.style.opacity = current;
+    var showAnimation = new AppleAnimation(117.0, 3.0, function(currentAnimator, current, start, finish) {
+      dPad.style.left = current + "px";
     });
-    var hideAnimation = new AppleAnimation(1.0, 0.0, function(currentAnimator, current, start, finish){
-      numPad.style.opacity = current;    
-    });
-    currentAnimator.addAnimation(showAnimation);
-    currentAnimator.addAnimation(hideAnimation);
+    //var hideAnimation = new AppleAnimation(1.0, 0.0, function(currentAnimator, current, start, finish){
+    //  numPad.style.opacity = current;    
+    //});
+    animator.addAnimation(showAnimation);
+    //animator.addAnimation(hideAnimation);
   }
   
-  currentAnimator.start();
+  animator.start();
 }

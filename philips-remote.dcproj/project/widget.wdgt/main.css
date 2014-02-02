@@ -405,8 +405,8 @@ body {
     width: 118px;
     height: 118px;
     position: absolute;
-    left: 38px;
-    top: 165px;
+    left: 3px;
+    top: 3px;
     right: 0px;
     margin-top: 0px;
 }
@@ -679,8 +679,8 @@ body {
     width: 118px;
     height: 118px;
     position: absolute;
-    left: 38px;
-    top: 165px;
+    left: 129px;
+    top: 3px;
     right: 0px;
     margin-top: 0px;
     visibility: hidden;
@@ -961,4 +961,20 @@ body {
     font-size: 10pt;
     left: 22px;
     top: 126px;
+}
+
+#boxPad {
+    border: 1px solid rgb(172, 172, 172);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    left: 34px;
+    top: 161px;
+    right: 0px;
+    bottom: 398px;
+    margin-top: 0px;
 }
