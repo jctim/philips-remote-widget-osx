@@ -6,9 +6,21 @@
  */
 var dashcodePartSpecs = {
     "bBack": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
+    "bBlue": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5 },
     "bDown": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
     "bExit": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
+    "bGreen": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 1 },
     "bInfo": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
+    "bK0": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 1, "text": "8" },
+    "bK1": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 1, "text": "1" },
+    "bK2": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 1, "text": "2" },
+    "bK3": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5, "text": "3" },
+    "bK4": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 1, "text": "4" },
+    "bK5": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 1, "text": "5" },
+    "bK6": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5, "text": "6" },
+    "bK7": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 1, "text": "7" },
+    "bK8": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 1, "text": "8" },
+    "bK9": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5, "text": "9" },
     "bLeft": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
     "bLeft1": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 1 },
     "bLeft2": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 1 },
@@ -26,6 +38,7 @@ var dashcodePartSpecs = {
     "bOk": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
     "bOptions": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
     "bPower": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
+    "bRed": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 1 },
     "bRight": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
     "bRight1": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5 },
     "bRight2": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5 },
@@ -34,11 +47,17 @@ var dashcodePartSpecs = {
     "bRight5": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5 },
     "bRight8": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5, "text": "CH+" },
     "bRight9": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5 },
+    "bSubtitles": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 1, "text": "7" },
+    "bText": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 5, "text": "9" },
+    "bTogglePad": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "togglePad", "rightImageWidth": 5, "text": "|" },
     "bUp": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5 },
+    "bYellow": { "creationFunction": "CreateButton", "leftImageWidth": 1, "rightImageWidth": 1 },
     "done": { "creationFunction": "CreateGlassButton", "onclick": "showFront", "text": "Done" },
     "info": { "backgroundStyle": "black", "creationFunction": "CreateInfoButton", "foregroundStyle": "white", "frontID": "front", "onclick": "showBack" },
-    "rectangleShape": { "creationFunction": "CreateShape", "leftImageWidth": 5, "rightImageWidth": 5 }
+    "rectangleShape": { "creationFunction": "CreateShape", "leftImageWidth": 5, "rightImageWidth": 5 },
+    "text": { "text": "IP Address of TV", "view": "DC.Text" }
 };
+
 
 
 
