@@ -107,15 +107,11 @@ if (window.widget) {
 }
 
 function savePreferences() {
-  widget.setPreferenceForKey($("textIP").value, "tvIPAddress");
+  saveTvIpPreferences($("textIP").value);
 }
 
 function loadPreferences() {
-  tvIP = widget.preferenceForKey("tvIPAddress");
-  if (!(tvIP && tvIP.length > 0)) {
-    tvIP = DEFAULT_IP;
-  }
-  $("textIP").value = tvIP;
+  $("textIP").value = loadTvIpFromPreferencesOrDefault();
 }
 
 var currentAnimator = new AppleAnimator(500, 13);

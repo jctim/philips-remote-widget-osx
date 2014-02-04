@@ -1,19 +1,33 @@
 DEFAULT_IP = "192.168.1.135";
 CURL = "/usr/bin/curl";
 
-var tvIP = DEFAULT_IP;
+var tvIP = loadTvIpFromPreferencesOrDefault();
+
+function loadTvIpFromPreferencesOrDefault() {
+  var ip = widget.preferenceForKey("tvIPAddress");
+  if ((ip && ip.length > 0)) {
+    return ip;
+  } else {
+    return DEFAULT_IP;
+  }
+}
+
+function saveTvIpPreferences(newValue) {
+  widget.setPreferenceForKey(newValue, "tvIPAddress");
+} 
+
 function url(fn) {
   return "http://" + tvIP + ":1925/1/" + fn;
 }
 
 function post(fn, data) {
-  var command = CURL + " -H \"Accept: application/json\" -H \"Content-type: application/json\" -X POST -d '" + data + "' " + url(fn);
+  var command = CURL + " -H \"Accept: application/json\" -H \"Content-type: application/json\" -X POST -d '" + JSON.stringify(data) + "' " + url(fn);
   alert(command); // debug
   widget.system(command);
 }
 
 function pressKey(keyString) {
-  post("input/key", {"key": keyString});
+  post("input/key", {key: keyString});
 }
 
 function keyPressHandler(event) {
