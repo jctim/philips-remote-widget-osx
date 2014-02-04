@@ -195,7 +195,7 @@ body {
     margin-top: 0px;
 }
 
-#bGuide {
+#bFind {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -228,7 +228,7 @@ body {
     font-weight: bold;
 }
 
-#bEnable3D {
+#b3D {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;

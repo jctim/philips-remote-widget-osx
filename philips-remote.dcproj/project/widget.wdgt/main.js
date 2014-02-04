@@ -142,4 +142,3 @@ function togglePad(event) {
   
   currentAnimator.start();
 }
-

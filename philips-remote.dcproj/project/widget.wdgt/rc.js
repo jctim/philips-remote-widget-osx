@@ -39,3 +39,26 @@ function keyPressHandler(event) {
     alert("unknown button: " + id);
   }
 }
+
+function keyboardHandler(event) {
+  alert(event.keyCode);
+  switch(event.keyCode) {
+    case 63232: pressKey("CursorUp"); break;
+    case 63233: pressKey("CursorDown"); break;
+    case 63234: pressKey("CursorLeft"); break;
+    case 63235: pressKey("CursorRight"); break;
+    case 13: pressKey("Confirm"); break;
+    case 27: pressKey("Back"); break;
+    case 48: pressKey("Digit0"); break;
+    case 49: pressKey("Digit1"); break;
+    case 50: pressKey("Digit2"); break;
+    case 51: pressKey("Digit3"); break;
+    case 52: pressKey("Digit4"); break;
+    case 53: pressKey("Digit5"); break;
+    case 54: pressKey("Digit6"); break;
+    case 55: pressKey("Digit7"); break;
+    case 56: pressKey("Digit8"); break;
+    case 57: pressKey("Digit9"); break;
+    case 32: togglePad(event); break;
+  }
+}

@@ -5,6 +5,7 @@
  code generator otherwise the changes will be lost.
  */
 var dashcodePartSpecs = {
+    "b3D": { "creationFunction": "CreateButton", "leftImageWidth": 1, "onclick": "keyPressHandler", "rightImageWidth": 1, "text": "3D" },
     "bAmbilightOnOff": { "creationFunction": "CreateButton", "leftImageWidth": 1, "onclick": "keyPressHandler", "rightImageWidth": 5, "text": "Ambilight" },
     "bBack": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "keyPressHandler", "rightImageWidth": 5 },
     "bBlueColour": { "creationFunction": "CreateButton", "leftImageWidth": 1, "onclick": "keyPressHandler", "rightImageWidth": 5 },
@@ -25,11 +26,10 @@ var dashcodePartSpecs = {
     "bDigit7": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "keyPressHandler", "rightImageWidth": 1, "text": "7" },
     "bDigit8": { "creationFunction": "CreateButton", "leftImageWidth": 1, "onclick": "keyPressHandler", "rightImageWidth": 1, "text": "8" },
     "bDigit9": { "creationFunction": "CreateButton", "leftImageWidth": 1, "onclick": "keyPressHandler", "rightImageWidth": 5, "text": "9" },
-    "bEnable3D": { "creationFunction": "CreateButton", "leftImageWidth": 1, "onclick": "keyPressHandler", "rightImageWidth": 1, "text": "3D" },
     "bExit": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "keyPressHandler", "rightImageWidth": 5 },
     "bFastForward": { "creationFunction": "CreateButton", "leftImageWidth": 1, "onclick": "keyPressHandler", "rightImageWidth": 5 },
+    "bFind": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "keyPressHandler", "rightImageWidth": 1, "text": "Guide" },
     "bGreenColour": { "creationFunction": "CreateButton", "leftImageWidth": 1, "onclick": "keyPressHandler", "rightImageWidth": 1 },
-    "bGuide": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "keyPressHandler", "rightImageWidth": 1, "text": "Guide" },
     "bHome": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "keyPressHandler", "rightImageWidth": 1 },
     "bInfo": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "keyPressHandler", "rightImageWidth": 5 },
     "bList": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "keyPressHandler", "rightImageWidth": 5 },
