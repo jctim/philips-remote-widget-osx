@@ -131,24 +131,19 @@ function togglePad(event) {
     numPad.style.visibility = "visible";
     var showAnimation = new AppleAnimation(0.0, 1.0, function(currentAnimator, current, start, finish) {
       numPad.style.opacity = current;
-    });
-    var hideAnimation = new AppleAnimation(1.0, 0.0, function(currentAnimator, current, start, finish){
-      dPad.style.opacity = current;    
+      dPad.style.opacity = 1.0 - current;    
     });
     currentAnimator.addAnimation(showAnimation);
-    currentAnimator.addAnimation(hideAnimation);
   } else {
     numPad.style.visibility = "hidden";
     dPad.style.visibility = "visible";
     var showAnimation = new AppleAnimation(0.0, 1.0, function(currentAnimator, current, start, finish) {
       dPad.style.opacity = current;
-    });
-    var hideAnimation = new AppleAnimation(1.0, 0.0, function(currentAnimator, current, start, finish){
-      numPad.style.opacity = current;    
+      numPad.style.opacity = 1.0 - current;    
     });
     currentAnimator.addAnimation(showAnimation);
-    currentAnimator.addAnimation(hideAnimation);
   }
   
   currentAnimator.start();
 }
+

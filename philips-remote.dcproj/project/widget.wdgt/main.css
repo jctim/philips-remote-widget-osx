@@ -59,7 +59,7 @@ body {
     margin-right: auto;
 }
 
-#bLeft1 {
+#bStop {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -75,7 +75,7 @@ body {
     margin-top: 0px;
 }
 
-#bRight1 {
+#bPause {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -111,7 +111,7 @@ body {
     margin-top: 0px;
 }
 
-#bMid1 {
+#bRecord {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -137,7 +137,7 @@ body {
     margin-top: 0px;
 }
 
-#bLeft2 {
+#bRewind {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -153,7 +153,7 @@ body {
     margin-top: 0px;
 }
 
-#bRight2 {
+#bFastForward {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -169,7 +169,7 @@ body {
     margin-top: 0px;
 }
 
-#bMid2 {
+#bPlayPause {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -195,7 +195,7 @@ body {
     margin-top: 0px;
 }
 
-#bLeft3 {
+#bGuide {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -211,7 +211,7 @@ body {
     margin-top: 0px;
 }
 
-#bRight3 {
+#bAmbilightOnOff {
     font-family: 'Helvetica Neue';
     font-size: 12px;
     text-align: right;
@@ -228,7 +228,7 @@ body {
     font-weight: bold;
 }
 
-#bMid3 {
+#bEnable3D {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -254,7 +254,7 @@ body {
     margin-top: 0px;
 }
 
-#bLeft4 {
+#bSource {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -270,7 +270,7 @@ body {
     margin-top: 0px;
 }
 
-#bRight4 {
+#bViewmode {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -286,7 +286,7 @@ body {
     cursor: default;
 }
 
-#bMid4 {
+#bWatchTV {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -321,7 +321,7 @@ body {
     -khtml-user-select: none;
     height: 20px;
     position: absolute;
-    left: 59px;
+    left: 61px;
     top: 5px;
     right: auto;
     margin-top: 0px;
@@ -338,7 +338,7 @@ body {
     margin-top: 0px;
 }
 
-#bLeft5 {
+#bHome {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -354,7 +354,7 @@ body {
     margin-top: 0px;
 }
 
-#bRight5 {
+#bOnline {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -411,7 +411,7 @@ body {
     margin-top: 0px;
 }
 
-#bUp {
+#bCursorUp {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -426,7 +426,7 @@ body {
     margin-top: 0px;
 }
 
-#bRight {
+#bCursorRight {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -443,7 +443,7 @@ body {
     bottom: 45px;
 }
 
-#bDown {
+#bCursorDown {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -459,7 +459,7 @@ body {
     min-height: 30px;
 }
 
-#bLeft {
+#bCursorLeft {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -475,7 +475,7 @@ body {
     height: 24px;
 }
 
-#bOk {
+#bConfirm {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -562,7 +562,7 @@ body {
     margin-top: 0px;
 }
 
-#bLeft8 {
+#bChannelStepDown {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -578,7 +578,7 @@ body {
     margin-top: 0px;
 }
 
-#bRight8 {
+#bChannelStepUp {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -605,7 +605,7 @@ body {
     margin-top: 0px;
 }
 
-#bLeft9 {
+#bVolumeDown {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -621,7 +621,7 @@ body {
     margin-top: 0px;
 }
 
-#bRight9 {
+#bVolumeUp {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -638,7 +638,7 @@ body {
     opacity: 1;
 }
 
-#bMid9 {
+#bMute {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -686,7 +686,7 @@ body {
     visibility: hidden;
 }
 
-#bGreen {
+#bGreenColour {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -701,7 +701,7 @@ body {
     margin-top: 0px;
 }
 
-#bRed {
+#bRedColour {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -717,7 +717,7 @@ body {
     margin-top: 0px;
 }
 
-#bBlue {
+#bBlueColour {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -733,7 +733,7 @@ body {
     margin-top: 0px;
 }
 
-#bYellow {
+#bYellowColour {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -748,7 +748,7 @@ body {
     margin-top: 0px;
 }
 
-#bK1 {
+#bDigit1 {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -764,7 +764,7 @@ body {
     margin-top: 0px;
 }
 
-#bK3 {
+#bDigit3 {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -780,7 +780,7 @@ body {
     margin-top: 0px;
 }
 
-#bK2 {
+#bDigit2 {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -795,7 +795,7 @@ body {
     margin-top: 0px;
 }
 
-#bK4 {
+#bDigit4 {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -811,7 +811,7 @@ body {
     margin-top: 0px;
 }
 
-#bK5 {
+#bDigit5 {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -826,7 +826,7 @@ body {
     margin-top: 0px;
 }
 
-#bK6 {
+#bDigit6 {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -842,7 +842,7 @@ body {
     margin-top: 0px;
 }
 
-#bK7 {
+#bDigit7 {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -858,7 +858,7 @@ body {
     margin-top: 0px;
 }
 
-#bK8 {
+#bDigit8 {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -873,7 +873,7 @@ body {
     margin-top: 0px;
 }
 
-#bK9 {
+#bDigit9 {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -889,7 +889,7 @@ body {
     margin-top: 0px;
 }
 
-#bSubtitles {
+#bSubtitle {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -905,7 +905,7 @@ body {
     margin-top: 0px;
 }
 
-#bK0 {
+#bDigit0 {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
@@ -920,7 +920,7 @@ body {
     margin-top: 0px;
 }
 
-#bText {
+#bTeletext {
     font-family: HelveticaNeue-Bold;
     font-size: 12px;
     text-align: center;
