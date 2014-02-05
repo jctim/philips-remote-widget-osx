@@ -4,12 +4,12 @@ philips-remote-widget-osx
 Dashboard widget remote control for Philips TV
 
 Used:
-  * [Dashcode IDE](https://developer.apple.com/downloads/index.action?name=dashcode) for OS X (current version 3.0.5 is not compatible with Mavericks yet)
-  * [JointSPACE API](http://jointspace.sourceforge.net/)
-  * [curl](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/curl.1.html) to make post requests
+  +  [Dashcode IDE](https://developer.apple.com/downloads/index.action?name=dashcode) for OS X (current version 3.0.5 is not compatible with Mavericks yet)
+  +  [JointSPACE API](http://jointspace.sourceforge.net/)
+  +  [curl](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/curl.1.html) to make post requests
 
 Screenshots:
 
-  ![screenshot 1](https://photos-1.dropbox.com/t/0/AADDxeg5GFI8tIo1byMF34InCQ5GD7TKTk_tN2WO91FO6A/12/15119356/png/1024x768/3/1391601600/0/2/philips-remote-widget-osx.png/NIrRgP0vc674aEn3MN8ixDtiurbJ_oBr-qDAYwKj_GM "Screenshot 1") 
-  ![screenshot 2](https://photos-5.dropbox.com/t/0/AAC_z54Zl3Wy48H-cNwNLlWBkVOk2jVl1FSmm9gtm3uobw/12/15119356/png/1024x768/3/1391623200/0/2/philips-remote-widget-osx1.png/yUBg0If9f2JMoQv2HKTMx-P5caPDRcsTS3qR3ehT31w "Screenshot 2")
-  ![screenshot 3](https://photos-3.dropbox.com/t/0/AAAhIylPedBlkCnJuh9N4skY6P8bj3U7RaHf7XWZiCQ0nQ/12/15119356/png/1024x768/3/1391601600/0/2/philips-remote-widget-osx2.png/72EEeJ-rPNIi4z89b597iWhBoX0R7IaOH6tbvM-Rmbc "Screenshot 3")
+  ![screenshot 1](https://www.dropbox.com/sh/puomtwsxio26hvy/BJcSu0fo3W/philips-remote-widget-osx.png "Screenshot 1") 
+  ![screenshot 2](https://www.dropbox.com/sh/puomtwsxio26hvy/2lyukZJaqq/philips-remote-widget-osx1.png] "Screenshot 2")
+  ![screenshot 3](https://www.dropbox.com/sh/puomtwsxio26hvy/DrniJlEp0X/philips-remote-widget-osx2.png "Screenshot 3")
