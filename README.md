@@ -11,4 +11,5 @@ Used:
 Screenshots:
 
   ![screenshot 1](https://photos-1.dropbox.com/t/0/AADDxeg5GFI8tIo1byMF34InCQ5GD7TKTk_tN2WO91FO6A/12/15119356/png/1024x768/3/1391601600/0/2/philips-remote-widget-osx.png/NIrRgP0vc674aEn3MN8ixDtiurbJ_oBr-qDAYwKj_GM "Screenshot 1") 
-  ![screenshot 2](https://photos-3.dropbox.com/t/0/AAAhIylPedBlkCnJuh9N4skY6P8bj3U7RaHf7XWZiCQ0nQ/12/15119356/png/1024x768/3/1391601600/0/2/philips-remote-widget-osx2.png/72EEeJ-rPNIi4z89b597iWhBoX0R7IaOH6tbvM-Rmbc "Screenshot 2")
+  ![screenshot 2](https://photos-5.dropbox.com/t/0/AAC_z54Zl3Wy48H-cNwNLlWBkVOk2jVl1FSmm9gtm3uobw/12/15119356/png/1024x768/3/1391623200/0/2/philips-remote-widget-osx1.png/yUBg0If9f2JMoQv2HKTMx-P5caPDRcsTS3qR3ehT31w "Screenshot 2")
+  ![screenshot 3](https://photos-3.dropbox.com/t/0/AAAhIylPedBlkCnJuh9N4skY6P8bj3U7RaHf7XWZiCQ0nQ/12/15119356/png/1024x768/3/1391601600/0/2/philips-remote-widget-osx2.png/72EEeJ-rPNIi4z89b597iWhBoX0R7IaOH6tbvM-Rmbc "Screenshot 3")
