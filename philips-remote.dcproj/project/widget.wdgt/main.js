@@ -108,6 +108,7 @@ if (window.widget) {
 
 function savePreferences() {
   saveTvIpPreferences($("textIP").value);
+  tvIP = loadTvIpFromPreferencesOrDefault();
 }
 
 function loadPreferences() {
