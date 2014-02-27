@@ -12,6 +12,6 @@ Used:
 
 Screenshots:
 
-  ![screenshot 1](http://jctim.github.io/philips-remote-widget-osx/images/screenshot1.png "Screenshot 1") 
-  ![screenshot 2](http://jctim.github.io/philips-remote-widget-osx/images/screenshot2.png "Screenshot 2")
-  ![screenshot 3](http://jctim.github.io/philips-remote-widget-osx/images/screenshot3.png "Screenshot 3")
+  ![screenshot 1](http://jctim.github.io/images/philips-tv-widget/screenshot1.png "Screenshot 1") 
+  ![screenshot 2](http://jctim.github.io/images/philips-tv-widget/screenshot2.png "Screenshot 2")
+  ![screenshot 3](http://jctim.github.io/images/philips-tv-widget/screenshot3.png "Screenshot 3")
