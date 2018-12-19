@@ -38,7 +38,7 @@ var dashcodePartSpecs = {
     "bOptions": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "keyPressHandler", "rightImageWidth": 5 },
     "bPause": { "creationFunction": "CreateButton", "leftImageWidth": 1, "onclick": "keyPressHandler", "rightImageWidth": 5 },
     "bPlayPause": { "creationFunction": "CreateButton", "leftImageWidth": 1, "onclick": "keyPressHandler", "rightImageWidth": 1 },
-    "bPower": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "keyPressHandler", "rightImageWidth": 5 },
+    "bStandby": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "keyPressHandler", "rightImageWidth": 5 },
     "bRecord": { "creationFunction": "CreateButton", "leftImageWidth": 1, "onclick": "keyPressHandler", "rightImageWidth": 1 },
     "bRedColour": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "keyPressHandler", "rightImageWidth": 1 },
     "bRewind": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "keyPressHandler", "rightImageWidth": 1 },
